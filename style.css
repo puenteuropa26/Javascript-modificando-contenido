@@ -44,16 +44,12 @@ body {
     font-size: 14px;
 }
 
-#cambiarIdioma select,
-#encabezado #botonTema {
+#cambiarIdioma select {
     min-height: 38px;
     border: 1px solid rgb(0, 82, 164);
     border-radius: 6px;
     font-family: Arial, sans-serif;
     font-size: 14px;
-}
-
-#cambiarIdioma select {
     background-color: white;
     color: rgb(20, 20, 20);
     padding: 8px 30px 8px 10px;
@@ -61,21 +57,22 @@ body {
 }
 
 #encabezado #botonTema {
-    background-color: rgb(0,102,204);
+    background-color: rgb(0, 102, 204);
     color: white;
-    padding: 8px 16px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    font-size: 18px;
+    transition: transform 0.2s ease;
 }
 
 #encabezado #botonTema:hover {
-    background-color: rgb(0, 76, 153);
-}
-
-body.dark-theme #cambiarIdioma select {
-    background-color: rgb(50, 50, 50);
-    color: rgb(240, 240, 240);
-    border-color: rgb(120, 120, 120);
+    transform: scale();
 }
 
 @media (max-width: 520px) {
@@ -161,32 +158,4 @@ h2 {
     color: rgb(0,102,204);
     text-decoration: none;
     font-weight: bold;
-}
-
-/* --- Tema oscuro --- */
-body.dark-theme {
-    background-color: rgb(30,30,30);
-    color: rgb(240,240,240);
-}
-
-body.dark-theme #encabezado {
-    border-bottom-color: rgb(200,200,200);
-}
-
-body.dark-theme #informacion-personal,
-body.dark-theme .texto h2 {
-    color: rgb(240,240,240);
-}
-
-body.dark-theme .texto h2 {
-    border-bottom-color: rgb(180,180,180);
-}
-
-body.dark-theme .web {
-    background-color: rgb(50,50,50);
-    border-color: rgb(80,80,80);
-}
-
-body.dark-theme .web a {
-    color: rgb(130,190,255);
 }

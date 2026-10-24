@@ -1,93 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <meta charset="UTF-8">
         <title id="titulo-pestana">Los expertos en ciberseguridad coinciden: "En las contraseñas, la longitud es más importante que la complejidad"</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body id="carta">
-            <header id="encabezado">
-                <div class="cambiarTema">
-                    <div id="cambiarIdioma">
-                        <label for="idioma" id="etiqueta-idioma">Elige un idioma:</label>
-                        <select id="idioma" name="idioma">
-                            <option id="opcion-es" value="es">Español</option>
-                            <option id="opcion-en" value="en">Inglés</option>
-                        </select>
-                    </div>
-                    <button id="botonTema">Cambiar tema</button>
+        <header id="encabezado">
+            <div class="cambiarTema">
+                <div id="cambiarIdioma">
+                    <label for="idioma" id="etiqueta-idioma">Elige un idioma:</label>
+                    <select id="idioma" name="idioma">
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                    </select>
                 </div>
-
-                <h1 id="titulo-principal">Los expertos en ciberseguridad coinciden: "En las contraseñas, la longitud es más importante que la complejidad"</h1>
-
-                <img src="Imagenes/contraseña.jpg" alt="Ilustración sobre seguridad digital, ciberseguridad y protección de contraseñas" id="img-portada">
-
-                <div id="informacion-personal">
-                    <p id="parrafo-autor">Escrito por: <b>Nacho Gómez González</b></p>
-                    <p id="parrafo-fecha">A fecha de: <b>4 de octubre del 2026</b></p>
-                </div>
-            </header>
-
-            <div class="texto">
-                <p id="parrafo-1">En un mundo cada vez más digitalizado, las contraseñas se han convertido en las llaves para abrir las puertas de nuestra identidad digital. Sin embargo, parece que este mensaje todavía no se ha extendido de lleno en nuestra sociedad, ya que la gran mayoría de usuarios sigue cometiendo errores y usando contraseñas muy débiles.</p>
-                <p id="parrafo-2">Según los datos de Verizon, alrededor del 86% de los ciberataques que se producen en el mundo a aplicaciones web utilizan credenciales robadas. Esto demuestra que el método más efectivo y popular se basa en el robo de contraseñas.</p>
+                <button id="botonTema" title="Cambiar tema">
+                    <span id="icono-tema">🌙</span>
+                </button>
             </div>
 
-            <div id="imagenes-texto">
-                <img src="Imagenes/imagen_hacker.jpg" alt="Ilustración de un 'hacker' o ciberdelincuente con máscara frente a múltiples pantallas" id="img-hacker">
-                <img src="Imagenes/Password_Image.jpg" alt="Interfaz de inicio de sesión y formulario de contraseña" id="img-login">
+            <h1 id="titulo-principal">Los expertos en ciberseguridad coinciden: "En las contraseñas, la longitud es más importante que la complejidad"</h1>
+
+            <img src="Imagenes/contraseña.jpg" alt="Ilustración sobre seguridad digital, ciberseguridad y protección de contraseñas" id="img-portada">
+
+            <div id="informacion-personal">
+                <p id="parrafo-autor">Escrito por: <b>Nacho Gómez González</b></p>
+                <p id="parrafo-fecha">A fecha de: <b>4 de octubre del 2026</b></p>
+            </div>
+        </header>
+
+        <div class="texto">
+            <p id="parrafo-1">En un mundo cada vez más digitalizado, las contraseñas se han convertido en las llaves para abrir las puertas de nuestra identidad digital. Sin embargo, parece que este mensaje todavía no se ha extendido de lleno en nuestra sociedad, ya que la gran mayoría de usuarios sigue cometiendo errores y usando contraseñas muy débiles.</p>
+            <p id="parrafo-2">Según los datos de Verizon, alrededor del 86% de los ciberataques que se producen en el mundo a aplicaciones web utilizan credenciales robadas. Esto demuestra que el método más efectivo y popular se basa en el robo de contraseñas.</p>
+        </div>
+
+        <div id="imagenes-texto">
+            <img src="Imagenes/imagen_hacker.jpg" alt="Ilustración de un 'hacker' o ciberdelincuente con máscara frente a múltiples pantallas" id="img-hacker">
+            <img src="Imagenes/Password_Image.jpg" alt="Interfaz de inicio de sesión y formulario de contraseña" id="img-login">
+        </div>
+
+        <div class="texto">
+            <p id="parrafo-3">Por esa razón, en los últimos años, las plataformas, servicios y aplicaciones han introducido nuevas medidas de seguridad y han reforzado las existentes, por ejemplo, la introducción de los identificadores biométricos (huella dactilar o reconocimiento facial). Pero también la llegada de contraseñas extremadamente largas incluso de hasta 16 caracteres o más.</p>
+            <p id="parrafo-4">Existen los generadores de claves automáticos, los cuales te ofrecen códigos muy complejos y casi impossibles de recordar, pero cada vez más empresas de ciberseguridad están apostando por contraseñas de entre 14 y 16 caracteres, que no tienen por qué mezclar letras, números y símbolos.</p>
+            <p id="parrafo-5">Esto se debe a que según la psicología, la memoria de trabajo tiene una capacidad limitada de aproximadamente cuatro "bloques" a la vez. Esto significa que es más fácil recordar una contraseña de entre 14 y 16 caracteres si se compone de entre tres y cinco bloques fáciles de recordar.</p>
+            <p id="parrafo-6">A su vez, según el servicio de gestión de contraseñas Bitwarden, un hacker tardaría siglos en descifrar mediante fuerza bruta una contraseña de 16 caracteres que combinara distintos tipos de caracteres.</p>
+        </div>
+
+        <div class="texto">
+            <h2 id="subtitulo-crear-clave">Cómo crear una contraseña fácil de recordar que sea realmente segura</h2>
+            <p id="parrafo-7">La mayoría de contraseñas son de 8 caracteres pero, en una época en la que surgen nuevas amenazas de piratería informática, crear contraseñas más largas es más seguro y necesario.</p>
+            <p id="parrafo-8">Las contraseñas más largas son más difíciles de descifrar, pero también más difíciles de recordar. Una de las mejores formas de solucionar esto es crear una frase de contraseña en lugar de una sola palabra, ya sea una frase corta, un dicho, la estrofa de una canción o lo que te ayude a recordarlo.</p>
+            <p id="parrafo-9">Si encima separas cada palabra con números o símbolos, tu clave será todavía más complicada de adivinar y robar. Este método es especialmente útil contra los ataques de fuerza bruta, que consiste en probar las palabras más usadas en contraseñas para robar claves.</p>
+        </div>
+
+        <h2 id="subtitulo-herramientas">Herramientas que te pueden ayudar</h2>
+        <p id="parrafo-10">Existen varias herramientas confiables y gratuitas para verificar la seguridad de tu contraseña.</p>
+        <p id="parrafo-11">Estas plataformas evaluan la fortaleza analizando la longitud, complejidad y patrones. Estimando el tiempo que tardaria un atacante en descifrarla mediante fuerza bruta.</p>
+        
+        <div id="herramientas">
+            <div class="web">
+                <h3 id="seccion-privacidad">Privacidad y Procesamiento</h3>
+                <img src="Imagenes/privacidad.jpg" alt="Tecla de privacidad en un teclado digital" id="img-privacidad">
+                <ol>
+                    <li><a href="https://www.bitwarden.com/" target="_blank">Bitwarden</a></li> 
+                    <li><a href="https://www.password.es/" target="_blank">Password.es</a></li>
+                </ol>
+                <p id="parrafo-bitwarden"><b>Bitwarden</b> y <b>Password.es</b> es una herramienta que procesan el analisis localmente de tu navegador, garantizando que la contraseña nunca se envie a un servidor.</p>
             </div>
 
-            <div class="texto">
-                <p id="parrafo-3">Por esa razón, en los últimos años, las plataformas, servicios y aplicaciones han introducido nuevas medidas de seguridad y han reinforced las existentes, por ejemplo, la introducción de los identificadores biométricos (huella dactilar o reconocimiento facial). Pero también la llegada de contraseñas extremadamente largas incluso de hasta 16 caracteres o más.</p>
-                <p id="parrafo-4">Existen los generadores de claves automáticos, los cuales te ofrecen códigos muy complejos y casi imposibles de recordar, pero cada vez más empresas de ciberseguridad están apostando por contraseñas de entre 14 y 16 caracteres, que no tienen por qué mezclar letras, números y símbolos.</p>
-                <p id="parrafo-5">Esto se debe a que según la psicología, la memoria de trabajo tiene una capacidad limitada de aproximadamente cuatro "bloques" a la vez. Esto significa que es más fácil recordar una contraseña de entre 14 y 16 caracteres si se compone de entre tres y cinco bloques fáciles de recordar.</p>
-                <p id="parrafo-6">A su vez, según el servicio de gestión de contraseñas Bitwarden, un hacker tardaría siglos en descifrar mediante fuerza bruta una contraseña de 16 caracteres que combinara distintos tipos de caracteres.</p>
+            <div class="web">
+                <h3 id="seccion-filtraciones">Verificacion de Filtraciones</h3>
+                <img src="Imagenes/filtraciones.jpg" alt="Ilustración de ciberataque con alerta de datos comprometidos" id="img-filtraciones">
+                <ol>
+                    <li><a href="https://my.kaspersky.com/" target="_blank">Kaspersky</a></li>
+                    <li><a href="https://www.roboform.com/es" target="_blank">RoboForm</a></li>
+                </ol>
+                <p id="parrafo-kaspersky"><b>Kaspersky</b> y <b>RoboForm</b> comparan tu contraseña con bases de datos de brechas de seguridad, para verificar si ha sido comprometida.</p>
             </div>
-
-            <div class="texto">
-                <h2 id="subtitulo-crear-clave">Cómo crear una contraseña fácil de recordar que sea realmente segura</h2>
-                <p id="parrafo-7">La mayoría de contraseñas son de 8 caracteres pero, en una época en la que surgen nuevas amenazas de piratería informática, crear contraseñas más largas es más seguro y necesario.</p>
-                <p id="parrafo-8">Las contraseñas más largas son más difíciles de descifrar, pero también más difíciles de recordar. Una de las mejores formas de solucionar esto es crear una frase de contraseña en lugar de una sola palabra, ya sea una frase corta, un dicho, la estrofa de una canción o lo que te ayude a recordarlo.</p>
-                <p id="parrafo-9">Si encima separas cada palabra con números o símbolos, tu clave será todavía más complicada de adivinar y robar. Este método es especialmente útil contra los ataques de fuerza bruta, que consiste en probar las palabras más usadas en contraseñas para robar claves.</p>
+                
+            <div class="web">
+                <h3 id="seccion-algoritmos">Algoritmos Avanzados</h3>
+                <img src="Imagenes/algoritmos.jpg" alt="Código de programación sobre fondo de centro de datos" id="img-algoritmos">
+                <ol>
+                    <li><a href="https://1password.com/es" target="_blank">1Password</a></li>
+                    <li><a href="https://proton.me/es-es/pass" target="_blank">Proton Pass</a></li>
+                </ol>
+                <p id="parrafo-proton">Se sugieren usar aplicaciones como <b>1Password</b> y <b>Proton Pass</b> para generar contrseñas únicas y aleatorias de ms de 12 caracteres.</p>
             </div>
+        </div>
 
-            <h2 id="subtitulo-herramientas">Herramientas que te pueden ayudar</h2>
-            <p id="parrafo-10">Existen varias herramientas confiables y gratuitas para verificar la seguridad de tu contraseña.</p>
-            <p id="parrafo-11">Estas plataformas evaluan la fortaleza analizando la longitud, complejidad y patrones. Estimando el tiempo que tardaria un atacante en descifrarla mediante fuerza bruta.</p>
-            
-            <div id="herramientas">
-                <div class="web">
-                    <h3 id="seccion-privacidad">Privacidad y Procesamiento</h3>
-                    <img src="Imagenes/privacidad.jpg" alt="Tecla de privacidad en un teclado digital" id="img-privacidad">
-                    <ol>
-                        <li><a href="https://www.bitwarden.com/" target="_blank" title="Bitwarden">Bitwarden</a></li> 
-                        <li><a href="https://www.password.es/" target="_blank" title="Password.es">Password.es</a></li>
-                    </ol>
-                    <p id="parrafo-bitwarden"><b>Bitwarden</b> y <b>Password.es</b> es una herramienta que procesan el analisis localmente de tu navegador, garantizando que la contraseña nunca se envie a un servidor.</p>
-                </div>
-
-                <div class="web">
-                    <h3 id="seccion-filtraciones">Verificacion de Filtraciones</h3>
-                    <img src="Imagenes/filtraciones.jpg" alt="Ilustración de ciberataque con alerta de datos comprometidos" id="img-filtraciones">
-                    <ol>
-                        <li><a href="https://my.kaspersky.com/" target="_blank" title="Kaspersky">Kaspersky</a></li>
-                        <li><a href="https://www.roboform.com/es" target="_blank" title="RoboForm">RoboForm</a></li>
-                    </ol>
-                    <p id="parrafo-kaspersky"><b>Kaspersky</b> y <b>RoboForm</b> comparan tu contraseña con bases de datos de brechas de seguridad, para verificar si ha sido comprometida.</p>
-                </div>
-                    
-                <div class="web">
-                    <h3 id="seccion-algoritmos">Algoritmos Avanzados</h3>
-                    <img src="Imagenes/algoritmos.jpg" alt="Código de programación sobre fondo de centro de datos" id="img-algoritmos">
-                    <ol>
-                        <li><a href="https://1password.com/es" target="_blank" title="1Password">1Password</a></li>
-                        <li><a href="https://proton.me/es-es/pass" target="_blank" title="Proton Pass">Proton Pass</a></li>
-                    </ol>
-                    <p id="parrafo-proton">Se sugieren usar aplicaciones como <b>1Password</b> y <b>Proton Pass</b> para generar contrseñas únicas y aleatorias de ms de 12 caracteres.</p>
-                </div>
-            </div>
-
-            <script src="script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
